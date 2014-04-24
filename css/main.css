@@ -5278,6 +5278,22 @@ hr {
 .item-actions {
   margin: 2.5em 0 4em; }
 
+.item-actions-share {
+  float: right;
+  color: rgba(255, 255, 255, 0.5);
+  text-transform: uppercase;
+  font-size: 0.8em; }
+  .item-actions-share a {
+    font-size: 1.3em;
+    display: inline-block;
+    margin-top: 0.3em;
+    padding: 1px 5px;
+    color: rgba(255, 255, 255, 0.9);
+    border-radius: 2px; }
+    .item-actions-share a:hover {
+      background-color: white;
+      color: #009ac4; }
+
 .item-actions-link {
   display: inline-block;
   margin-right: 0.5em;
